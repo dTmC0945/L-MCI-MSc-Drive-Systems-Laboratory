@@ -16,6 +16,8 @@ control with the use of experimental methods. The student will apply control
 methods to motor by using embedded devices and analyse experimental results with
 simulations.
 
+A detailed view of the lecture information is as follows.
+
 | INDEX | DESCRIPTION        | VALUE                                                   | STATUS |
 |-------+--------------------+---------------------------------------------------------+--------|
 |     1 | Official Name      | Antriebssysteme Labor                                   |        |
@@ -51,6 +53,10 @@ simulations.
 
 The requirements and the outcome for the lecture are given as follows.
 
+The student should be comfortable with working in an electrical laboratory and have practical
+experience working with MATLAB and SIMULINK along with basic knowledge using the C programming
+language
+
 | INDEX | REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME                     |
 |-------+-----------------------+----------------------+------+--------+-----------------------------|
 |     1 | Laplace Transform     | Higher Mathematics I | HMA  | M.Sc   | Fourier Analysis            |
@@ -61,6 +67,10 @@ The requirements and the outcome for the lecture are given as follows.
 |-------+-----------------------+----------------------+------+--------+-----------------------------|
 
 ** Grading of the Lecture
+
+As this lecture is Experiment based, the student is required to present a lab report showcasing
+all the requirement as dictated by the Laboratory Manual. The author of this repo has also
+authored a LaTeX template conforming to the MCI standard (mcidoc) which can be found [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][here]].
 
 | ASSIGNMENT TYPE   | VALUE |
 |-------------------+-------|
@@ -99,7 +109,7 @@ is defined as 45 min lecture.
 |-------+---------------------------+-------+------------|
 |     5 | SUM                       |    15 |         30 |
 
-** Lecture Table of Contents
+** Lecture Table of Contents 
 
 The structure of the M.Sc Drive Systems Laboratory can be
 grouped into four (4) parts which are as follows:
