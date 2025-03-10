@@ -12,13 +12,13 @@
 
 ** Lecture Information
 
-*WARNING:* This is the content only covered by me as this lecture is shared by
+- *WARNING:* This is the content only covered by me as this lecture is shared by
 both me and Prof. Bernhard Hollaus, Ph.D.
 
-The goal of this lecture is to introduce to you the interesting world of machine
-control with the use of experimental methods. The student will apply control
-methods to motor by using embedded devices and analyse experimental results with
-simulations.
+- The goal of this lecture is to introduce to you the interesting world of machine
+  control with the use of experimental methods. The student will apply control
+  methods to motor by using embedded devices and analyse experimental results with
+  simulations.
 
 The structure for this lecture is as follows.
 
@@ -45,28 +45,27 @@ The structure for this lecture is as follows.
 
 ** Requirements and the Learning Outcomes
 
-The requirements and the outcome for the lecture are given as follows.
+- The student should be comfortable with working in an electrical laboratory
+  and have practical experience working with MATLAB and SIMULINK along with
+  basic knowledge using the C programming language.
 
-The student should be comfortable with working in an electrical laboratory
-and have practical experience working with MATLAB and SIMULINK along with
-basic knowledge using the C programming language.
-
-For a revision on some of these topics plase look at the following repos:
+- For a revision on some of these topics plase look at the following repos:
 
 - [[https://github.com/dTmC0945/L-MCI-MSc-Drive-Systems][M.Sc Drive Systems]]
 - [[https://github.com/dTmC0945/L-MCI-BSc-Drive-Technology][B.Sc Drive Technology]] 
 
-| REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME                     |
-| Laplace Transform     | Higher Mathematics I | HMA  | M.Sc   | Fourier Analysis            |
-| Integral Calculus     | Higher Mathematics I | HMA  | M.Sc   | MATLAB/SIMULINK Programming |
-| Solid-State Motors    | Drive Systems        | ATS  | M.Sc   | Embedded Programming        |
-| Differential Calculus | Higher Mathematics I | HMA  | M.Sc   | Practical Experience        |
-| Poly-phase Circuits   | Drive Technology     | ANT  | B.Sc   | Control Analysis            |
+| REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME              |
+| C/C++ Programming     | Programming II       | PRO2 | B.Sc   | Fourier Analysis     |
+| Integral Calculus     | Higher Mathematics I | HMA  | M.Sc   | Programming          |
+| Solid-State Motors    | Drive Systems        | ATS  | M.Sc   | Practical Experience |
+| Differential Calculus | Higher Mathematics I | HMA  | M.Sc   | Control Analysis     |
+| Poly-phase Circuits   | Drive Technology     | ANT  | B.Sc   | -                    |
 
 ** Grading of the Lecture
 
-As this lecture is experiment based, the student is required to present a
-lab report showcasing all the requirement as dictated by the Laboratory Manual.
+- As this lecture is experiment based, the student is required to produce a
+  lab report, to be uploaded to SAKAI, showcasing all the requirement as
+  dictated by the Laboratory Manual.
     
 | ASSIGNMENT TYPE   | VALUE |
 | Laboratory Report |   100 |
@@ -90,26 +89,24 @@ goes well with the lectures.
 
 ** Content and Unit Distribution
 
-The content and unit distribution of the lecture is as follows where a unit
-is defined as 45 min lecture.
+- The content and unit distribution of the lecture is as follows where a unit
+  is defined as 45 min lecture.
     
-| TOPIC                     | UNITS | SELF STUDY |
-| Measurement Board         |     3 |          6 |
-| BLDC Control with Sensors |     4 |          8 |
-| Sensorless BLDC Control   |     4 |          8 |
-| Sensorless FOC of PMSM    |     4 |          8 |
-| SUM                       |    15 |         30 |
+| ORDER | TOPIC                     | UNITS | SELF STUDY |
+|     1 | Measurement Board         |     3 |          8 |
+|     2 | BLDC Control with Sensors |     4 |          8 |
+|     3 | Sensorless BLDC Control   |     4 |          8 |
+|     4 | Sensorless FOC of PMSM    |     4 |          8 |
+|     5 | SUM                       |    15 |         32 |
 
 ** Lecture Table of Contents 
 
 The structure of the M.Sc Drive Systems Laboratory can be
-grouped into four (4) parts which are as follows:
+grouped into three (3) parts which are as follows:
 
-| TOPIC                     | DESCRIPTION                                                                  |
-| Measurement Board         | Introduction to the equipment to be used, initial setup and measurement.     |
-| BLDC Control with Sensors | Study of BLDC control using block commutation technique and simulation work. |
-| Sensorless BLDC Control   | Study of BLDC control using sensorles techniques and simulation work.        |
-| Sensorless FOC of PMSM    | Study of PMSM control using field oriented control and simulation work.      |
+1. Introduction to Equipment
+2. Sensored Control of BLDC
+3. Sensorless Control of BLDC & PMSM
 
 Below is the detailed structure of the lecture:
 
@@ -153,13 +150,23 @@ Below is the detailed structure of the lecture:
   - Introduction
   - A Good Lab Report Structure
   - Documentation Standard
+  - Requirements of the Report
 - Simulink Schematics
+  - Introduction
+  - Modelling the Block Commutation
+  - Modelling the Field Oriented Control
 - MATLAB Codes
+  - Introduction
+  - MATLAB Codes
+    - initBCPWM
+    - initSVPWM
+    - doFilter
+    - doSigAnalysis
 
 ** Documentation
 
 For any student in need of a LaTex class designed from the ground-up for
 assignment/lab/thesis/slide for MCI needs please have a look at ~mcidoc~ class
-hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].
+hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].      
 
 (-DTMc 2025)
