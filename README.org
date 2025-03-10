@@ -13,7 +13,7 @@
 ** Lecture Information
 
 - *WARNING:* This is the content only covered by me as this lecture is shared by
-both me and Prof. Bernhard Hollaus, Ph.D.
+  both me and Prof. Bernhard Hollaus, Ph.D.
 
 - The goal of this lecture is to introduce to you the interesting world of machine
   control with the use of experimental methods. The student will apply control
